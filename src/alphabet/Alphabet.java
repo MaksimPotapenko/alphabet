@@ -26,8 +26,13 @@ public class Alphabet {
     System.out.println(s);
     System.out.println("");
     System.out.println("текст использует " + s.length() + " букв");
-    System.out.println("в тексте все буквы английского алфавита от a до z");
-
+    int lenth = 0;
+    lenth = s.length();
+    if (lenth == 26) {
+        System.out.println("в тексте все буквы английского алфавита от a до z");
+    }
+    else
+            System.out.println("текст содержит не все буквы алфавита");
 }
     
 }
